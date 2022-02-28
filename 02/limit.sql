@@ -1,0 +1,3 @@
+SELECT *
+FROM payment
+LIMIT 1;
