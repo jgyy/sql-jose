@@ -1,0 +1,1 @@
+SELECT SUM(replacement_cost) from film;
