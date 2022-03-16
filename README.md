@@ -16,3 +16,11 @@ Backup of the database will be used and the steps to restore is stated below
 ```bash
 pg_restore -c -U jgyy -d jgyy -v data.tar
 ```
+
+## miniconda environment for python
+Use the command below to create virtual environment for python
+
+```bash
+conda env new -f requirements.yaml
+conda activate m1
+```
