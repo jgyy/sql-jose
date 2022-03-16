@@ -6,4 +6,13 @@ I am current using macbook as i do not wish to use pgadmin as gui. Used homebrew
 
 ```bash
 brew install postgresql
+# To use psql
+psql < script.sql
+```
+
+## postgres restore database from tar file
+Backup of the database will be used and the steps to restore is stated below
+
+```bash
+pg_restore -c -U jgyy -d jgyy -v data.tar
 ```
